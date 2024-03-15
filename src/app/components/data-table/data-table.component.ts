@@ -1,24 +1,24 @@
-import { AfterViewInit, Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ColDef, GridApi, RowDragMoveEvent, GridReadyEvent, } from 'ag-grid-community';
 
 @Component({
   selector: 'app-data-table',
   template: `
 		<ag-grid-angular
-	    [rowData]="data"
-	    [columnDefs]="columns"
+			[rowData]="data"
+			[columnDefs]="columns"
 			[defaultColDef]="defaultColDef"
 			[pagination]="true"
 			[paginationAutoPageSize]="true"
 			[rowHeight]="60"
 			[animateRows]="true"
 			(sortChanged)="onSortChanged()"
-	    (filterChanged)="onFilterChanged()"
+			(filterChanged)="onFilterChanged()"
 			(rowDragMove)="onRowDragMove($event)"
-	    (gridReady)="onGridReady($event)"
+			(gridReady)="onGridReady($event)"
 			class="ag-theme-quartz h-full"
 		>
-	  </ag-grid-angular>
+		</ag-grid-angular>
   `,
   styles: [
 	]
@@ -67,8 +67,8 @@ export class DataTableComponent {
 
 	// define default settings for all columns
 	public defaultColDef: ColDef = {
-    width: 170,
-    filter: true,
+		width: 170,
+		filter: true,
 		editable: true
   };
 
