@@ -3,6 +3,9 @@ import { ActivatedRoute } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
 import { ColDef } from 'ag-grid-community';
 
+/**
+ * A component to display a basic page with a header and a data table
+ */
 @Component({
   selector: 'app-data-table-page',
   template: `

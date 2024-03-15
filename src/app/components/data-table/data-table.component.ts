@@ -1,6 +1,9 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ColDef, GridApi, RowDragMoveEvent, GridReadyEvent, } from 'ag-grid-community';
 
+/**
+ * A component to display any array data in a table-like view
+ */
 @Component({
   selector: 'app-data-table',
   template: `
