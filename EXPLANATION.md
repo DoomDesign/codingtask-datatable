@@ -8,7 +8,7 @@ I've decided to do this, because:
 
 ## Requirement: The table should be created using Angular components and directives.
 
-The main component for the data table can be found in [data-table.component.ts](src/app/components/data-table/data-table.component.ts).
+The main component for the data table can be found in [data-table.component.ts](src/app/components/data-table/data-table.component.ts). See the commented code for a detailed explanation.
 
 ## Requirement: The table receives the columns and the data as Input.
 
