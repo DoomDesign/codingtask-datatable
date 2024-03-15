@@ -5,6 +5,12 @@ See [EXPLANATION.md](EXPLANATION.md) for how I implemented the given requirement
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
 
+## How to: Run the application
+
+- Clone this repo
+- Run `npm install` in the projects root directory
+- Either start a development server or build the application, following the instructions below:
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
